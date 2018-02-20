@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
    end
    lowest_key =''
    lowest = name_hash[0]
-   lowest value = name_hash.collect{
+   lowest = name_hash.collect{
      |key,value|
      if value < lowest
         lowest_key = key
